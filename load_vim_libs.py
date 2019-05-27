@@ -3,13 +3,7 @@ import git
 
 
 def main():
-    python_libs = """sudo apt-get install
-                     python3-pip 
-                     vim 
-                     curl 
-                     exuberant-ctags 
-                     git 
-                     ack-grep"""
+    python_libs = "sudo apt-get install python3-pip vim curl exuberant-ctags git ack-grep"
     pip_libs = 'sudo pip3 install pep8 flake8 pyflakes isort yapf jedi' 
     cpy_vimrc = 'cp vim_rc_content .vimrc'
 

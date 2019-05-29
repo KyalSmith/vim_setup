@@ -10,10 +10,10 @@ def main():
     os.system(python_libs) 
     os.system(pip_libs)
     os.system(cpy_vimrc)
-    current_dir = os.getcwd()
+    home_dir = os.path.expanduser('~')
     
-    autoload_path = os.path.join(current_dir, ".vim/autload")
-    plugged_path = os.path.join(current_dir, ".vim/plugged/")
+    autoload_path = os.path.join(home_dir, ".vim/autload")
+    plugged_path = os.path.join(home_dir, ".vim/plugged/")
 
     if not os.path.exists(autoload_path):
         os.makedirs(autoload_path)

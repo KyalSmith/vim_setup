@@ -3,6 +3,7 @@ python script to setup vim as an IDE for python
 
 Requirements:
 python3 pip module must be installed
+git must be installed
 
 sudo apt-get install python3-pip -y
 

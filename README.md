@@ -4,7 +4,7 @@
 <h3>Requirements:</h3>
 <ul>
   <li><p>python3 pip module must be installed.<br>sudo apt-get install python3-pip -y</p></li>
-  <li><p>git must be installed.<br>sudo apt-get install git</p></li>
+  <li><p>git must be installed.<br>sudo pip3 install gitpython</p></li>
 </ul>
 
 

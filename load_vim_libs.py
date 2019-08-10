@@ -12,7 +12,7 @@ def main():
     os.system(cpy_vimrc)
     home_dir = os.path.expanduser('~')
     
-    autoload_path = os.path.join(home_dir, ".vim/autload")
+    autoload_path = os.path.join(home_dir, ".vim/autoload")
     plugged_path = os.path.join(home_dir, ".vim/plugged/")
 
     if not os.path.exists(autoload_path):
